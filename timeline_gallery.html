@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Heidegger: Galería y Línea del Tiempo</title>
+  <style>
+    body { font-family: sans-serif; margin: 0; background: #f9f9f9; color: #333; }
+    h2 { text-align: center; margin-top: 20px; }
+    .gallery, .timeline { max-width: 1000px; margin: auto; padding: 20px; }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+    }
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    .timeline-item {
+      margin: 20px 0;
+      padding-left: 15px;
+      border-left: 4px solid #444;
+    }
+    .timeline-item h4 { margin: 5px 0; color: #222; }
+    .timeline-item p { margin: 0 0 10px 0; }
+  </style>
+</head>
+<body>
+  <h2>Galería de Imágenes</h2>
+  <div class="gallery">
+    <div class="gallery-grid">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Heidegger_1927_crop.jpg" alt="Heidegger 1927" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4e/Martin_Heidegger_1960.jpg" alt="Heidegger 1960" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Heidegger_grab.jpg" alt="Tumba de Heidegger" />
+      <img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Martin_Heidegger_%281931%29.jpg" alt="Heidegger joven" />
+    </div>
+  </div>
+  <h2>Línea del Tiempo</h2>
+  <div class="timeline">
+    <div class="timeline-item">
+      <h4>1889</h4>
+      <p>Nace Martin Heidegger en Messkirch, Alemania.</p>
+    </div>
+    <div class="timeline-item">
+      <h4>1915</h4>
+      <p>Doctorado en filosofía por la Universidad de Friburgo.</p>
+    </div>
+    <div class="timeline-item">
+      <h4>1927</h4>
+      <p>Publica su obra maestra: <em>Ser y tiempo</em>.</p>
+    </div>
+    <div class="timeline-item">
+      <h4>1933</h4>
+      <p>Asume el rectorado de la Universidad de Friburgo y se vincula brevemente con el régimen nazi.</p>
+    </div>
+    <div class="timeline-item">
+      <h4>1945</h4>
+      <p>Es apartado de la docencia tras la Segunda Guerra Mundial.</p>
+    </div>
+    <div class="timeline-item">
+      <h4>1951</h4>
+      <p>Vuelve a dar clases en Friburgo.</p>
+    </div>
+    <div class="timeline-item">
+      <h4>1976</h4>
+      <p>Muere en su ciudad natal, Messkirch.</p>
+    </div>
+  </div>
+</body>
+</html>
