@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Análisis de "Ser y tiempo" de Heidegger</title>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #1a1a1a;
+      --card-bg-color: #2b2b2b;
+      --text-color: #e0e0e0;
+      --primary-color: #d4af37; /* Un dorado/ocre filosófico */
+      --secondary-color: #0096C7;
+      --border-color: #444;
+    }
+    body {
+      font-family: 'Lato', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      padding: 40px 20px;
+      border-bottom: 2px solid var(--primary-color);
+      margin-bottom: 40px;
+    }
+    header h1 {
+      font-family: 'Lora', serif;
+      font-size: 3rem;
+      color: #fff;
+      margin: 0;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: var(--primary-color);
+      font-style: italic;
+    }
+    h2 {
+      font-family: 'Lora', serif;
+      font-size: 2.2rem;
+      color: var(--primary-color);
+      text-align: center;
+      margin-top: 60px;
+      margin-bottom: 30px;
+    }
+    .intro {
+      text-align: center;
+      max-width: 800px;
+      margin: 0 auto 40px auto;
+      font-size: 1.1rem;
+      font-weight: 300;
+    }
+    .schema-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 25px;
+    }
+    .card {
+      background-color: var(--card-bg-color);
+      border: 1px solid var(--border-color);
+      border-radius: 8px;
+      padding: 25px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      display: flex;
+      flex-direction: column;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    }
+    .card-header {
+      border-bottom: 1px solid var(--border-color);
+      margin-bottom: 15px;
+      padding-bottom: 15px;
+    }
+    .card-header h3 {
+      font-family: 'Lora', serif;
+      margin: 0;
+      font-size: 1.5rem;
+      color: #fff;
+    }
+    .card-header .german {
+      font-style: italic;
+      color: var(--primary-color);
+      font-size: 1.1rem;
+      display: block;
+      margin-top: 5px;
+    }
+    .card p {
+      margin: 0;
+      font-weight: 300;
+      flex-grow: 1; /* Para que el contenido ocupe el espacio */
+    }
+    .links-section {
+      background-color: var(--card-bg-color);
+      padding: 30px;
+      margin-top: 60px;
+      border-radius: 8px;
+    }
+    .links-section ul {
+      list-style: none;
+      padding: 0;
+    }
+    .links-section li {
+      margin-bottom: 15px;
+    }
+    .links-section a {
+      color: var(--secondary-color);
+      text-decoration: none;
+      font-weight: 400;
+      transition: color 0.3s;
+    }
+    .links-section a:hover {
+      color: #fff;
+      text-decoration: underline;
+    }
+    footer {
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        font-size: 0.9em;
+        color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Análisis de <em>Ser y tiempo</em></h1>
+      <p>La pregunta por el sentido del Ser (Seinsfrage)</p>
+    </header>
+
+    <section class="intro">
+      <p><em>Ser y tiempo</em> (1927) es la obra magna de Martin Heidegger. Su objetivo no es definir qué "son" las cosas, sino replantear la pregunta fundamental olvidada por la filosofía occidental: <strong>¿cuál es el sentido del Ser en general?</strong> Para ello, analiza la existencia de aquel ente que se pregunta por el Ser: el ser humano, al que llama <strong>Dasein</strong>.</p>
+    </section>
+
+    <h2>Esquema de la Analítica Existenciaria</h2>
+
+    <div class="schema-grid">
+      <div class="card">
+        <div class="card-header">
+          <h3>Dasein (Ser-ahí)</h3>
+          <span class="german">Dasein</span>
+        </div>
+        <p>No es "ser humano" o "conciencia". Es el "ser-ahí", el ente cuya existencia se define por su comprensión del Ser. El Dasein no "es" una cosa con propiedades, sino un cúmulo de posibilidades. Su esencia es su existencia.</p>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <h3>Ser-en-el-mundo</h3>
+          <span class="german">In-der-Welt-sein</span>
+        </div>
+        <p>Es la constitución fundamental del Dasein. No estamos "en" el mundo como un objeto en una caja. "Ser-en" es un modo de habitar, de estar familiarizado y comprometido con un contexto de sentido y de útiles (Zeug).</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3>Cuidado (Sorge)</h3>
+          <span class="german">Sorge</span>
+        </div>
+        <p>Es la estructura unitaria del Ser del Dasein. Se compone de tres momentos: el "estar-ya-en" (facticidad), el "ser-delante-de-sí" (existenciariedad) y el "ser-cabe" los entes (caída).</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3>Arrojo y Proyecto</h3>
+          <span class="german">Geworfenheit & Entwurf</span>
+        </div>
+        <p><strong>Arrojo:</strong> Hemos sido "arrojados" a un mundo que no elegimos, con una historia y un contexto. Es nuestra facticidad. <strong>Proyecto:</strong> A pesar de estar arrojados, somos un constante proyectarnos hacia el futuro, hacia nuestras posibilidades.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3>El "Uno" y la Caída</h3>
+          <span class="german">Das Man & Verfallen</span>
+        </div>
+        <p>La <strong>Caída</strong> es la tendencia del Dasein a perderse en el mundo público, en el "qué dirán". El <strong>"Uno"</strong> (o "se") es el sujeto anónimo de la vida cotidiana: "se dice", "se hace". Es el modo de ser inauténtico.</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3>Angustia (Angst)</h3>
+          <span class="german">Angst</span>
+        </div>
+        <p>A diferencia del miedo (que es ante algo concreto), la angustia es ante la nada, ante el hecho de que el mundo familiar pierde su sentido. Esta experiencia revela al Dasein su libertad y la posibilidad de una existencia auténtica.</p>
+      </div>
+      
+      <div class="card">
+        <div class="card-header">
+          <h3>Ser-para-la-muerte</h3>
+          <span class="german">Sein-zum-Tode</span>
+        </div>
+        <p>La muerte no es un evento final, sino la "posibilidad más propia, irrespectiva e insuperable" del Dasein. Asumir esta finitud de forma anticipada (Vorlaufen) abre la puerta a la existencia <strong>auténtica</strong>, liberándonos de las trivialidades del "Uno".</p>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <h3>Temporalidad (Zeitlichkeit)</h3>
+          <span class="german">Zeitlichkeit</span>
+        </div>
+        <p>La conclusión de la obra. El sentido del Ser del Dasein es la <strong>temporalidad</strong>. No el tiempo del reloj, sino la unidad extática del futuro (proyecto), pasado (arrojo) y presente (caída). Somos tiempo.</p>
+      </div>
+    </div>
+
+    <section class="links-section">
+      <h2>Recursos y Estudios Académicos</h2>
+      <ul>
+        <li><a href="https://plato.stanford.edu/entries/heidegger/#BeiTim" target="_blank">Stanford Encyclopedia of Philosophy: Being and Time</a> (En inglés) - Un resumen académico exhaustivo y riguroso.</li>
+        <li><a href="https://iep.utm.edu/heidegge/#H4" target="_blank">Internet Encyclopedia of Philosophy: Being and Time</a> (En inglés) - Otra excelente introducción a los conceptos clave.</li>
+        <li><a href="https://www.philosophizethis.org/podcast/heidegger-pt-1-being-and-time" target="_blank">Podcast "Philosophize This!": Heidegger - Being and Time</a> - Una explicación accesible en formato audio (en inglés).</li>
+        <li><a href="https://www.alcoberro.info/pdf/Heidegger12.pdf" target="_blank">Estudio introductorio de Ramón Alcoberro</a> (PDF en español) - Un documento detallado sobre el pensamiento de Heidegger y su obra.</li>
+        <li><a href="https://www.youtube.com/watch?v=1d0i2s8r5sI" target="_blank">Video-resumen: Ser y Tiempo en 10 minutos (Adictos a la Filosofía)</a> (Video en español) - Una explicación visual y rápida para una primera aproximación.</li>
+      </ul>
+    </section>
+
+    <footer>
+      <p><a href="index.html" style="color: var(--primary-color);">Volver a la página principal</a></p>
+    </footer>
+
+  </div>
+</body>
+</html>

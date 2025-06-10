@@ -2,6 +2,8 @@
 
 https://jmlucas68.github.io/heidegger/
 
+Hecho por ChatGpt
+
 Este es un sitio web estático con información visual y detallada sobre el filósofo alemán Martin Heidegger. Inspirado en el estilo de [jmlucas68.github.io/platon](https://jmlucas68.github.io/platon/).
 
 ## Contenido
